@@ -1,0 +1,273 @@
+    .color-negro {
+        color: black;
+    }
+    .color-naranja {
+        color: orange;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .color-naranja-1 {
+        color: orange;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .color-blanco {
+        color: white;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .color-gris {
+        color: gray;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    .fuente-style{
+        font-family:Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        color: orange;
+        font-size: 30px;
+    }
+    .nav-bar {
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        list-style-type: none;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+    }
+    .nav-bar a {
+        text-decoration: none;
+        color: orange;
+        background-color: black;
+        border-radius:  10px;
+        padding-inline: 20px;
+    }
+    .img-logo {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+    .img {
+        margin-left: 75px;
+        border-radius: 10px;
+    } 
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+      }
+      
+    .section-opciones {
+        text-align: right;
+        font-size: 30px;
+        font-weight: bold;
+        list-style-type: none;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        margin: 30px;
+        color: white;
+        border-top: 3cm;
+        word-spacing: 1cm;
+    }
+    .enlinea {
+        display: inline;
+    }
+    footer {
+        text-align: center;
+        list-style-type: none;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 20px;
+        margin-top: 60px;
+        color: gray;
+    }
+    body {
+        background-color: black;
+    }
+    .padre-flex iframe {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        border: solid orange; 
+        margin: 20px;
+
+    }
+    .padre-flex-productos {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        border: solid orange; 
+        margin: 20px;
+    }
+    .ul {
+        list-style: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+        margin-right: 50px;
+        justify-content: space-evenly;
+    }
+    /* .iframe {
+        margin-left: 50px;
+        width: 500px;
+        height: 315px;
+    } */
+    .contacto-section {
+        margin-left: 50px;
+    }
+    .inline-flex {
+        margin-left: 22cm;
+        margin-right: 1cm;
+    }
+    .padre-flexp {
+        color: white;
+        text-align: left;
+    }
+    .productosgrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .img-logo1 {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        background-color: black
+        border-radius: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    .mediagrid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+    
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .grid-productos {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .img-logo {
+        align-items: center;
+        align-content: center;
+        border-radius: 10px;
+    }
+     .nav-bar a {
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        margin-left: -0.5cm;
+        margin-right: auto;
+        margin-top: -20px;
+
+    }
+    .section-opciones {
+        font-size: 20px;
+        align-items: center;
+        margin-left: auto;
+    }
+    .color-gris {
+        font-size: 25px;
+        margin-left: 1cm;
+    }
+    .fuente-style {
+        font-size: 15px;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+        align-content: center;
+    }
+    div {
+        align-items: center;
+        align-content: center;
+
+    }
+    .footer {
+        font-size: 10px;
+        margin-top: -0.5cm;
+    }
+    .productosgrid {
+        margin-top: -1cm;
+        margin-right: auto;
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .img-logo1 {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        background-color: black;
+        border-radius: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+    .nosotrostexto {
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .quiensomos {
+        font-size: 20px;
+        margin-left: 30px
+        
+    } 
+    .asisonamos {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    /* .mediagrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    } */
+    /* .padre-flex-productos {
+        display: flex;
+        flex-flow: column;
+        justify-content:center
+        border: solid orange; 
+        margin: 20px;
+        margin-right: -20cm;
+    } */
+    .productosgrid {
+        justify-content: center;
+        margin-top: -1cm;
+        margin-right: -20cm
+        grid-template-columns: repeat(2, 1fr)
+        object-fit: contain
+    }
+    .iframe { 
+        width: 10px
+        height: 10px
+    }
+    .footer1 {
+        padding-top: 1cm;
+    }
