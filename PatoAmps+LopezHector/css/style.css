@@ -262,6 +262,62 @@
             animation: beatBox 3s infinite alternate;
           
           }
+          ul.socialIcons {
+            padding: 0;
+            text-align: center;
+          }
+          
+          .socialIcons li {
+            background-color: yellow;
+            list-style: none;
+            display: inline-block;
+            margin: 4px;
+            border-radius: 2em;
+            overflow: hidden;
+          }
+          
+          .socialIcons li a {
+            display: block;
+            padding: 0.5em;
+            min-width: 1.28571429em;
+            max-width: 1.28571429em;
+            height: 1.28571429em;
+            white-space: nowrap;
+            line-height: 1.5em; /*it's working only when you write text with icon*/
+            transition: 0.5s;
+            text-decoration: none;
+            font-family: arial;
+            color: #fff;
+          }
+          
+          .socialIcons li i {
+            margin-right: 1cm;
+            margin-bottom: -2cm;
+            margin-top: 1cm;
+            padding-bottom: 4cm;
+          }
+          
+          .socialIcons li:hover a {
+            max-width: 200px;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+          }
+          
+          .socialIcons .facebook {
+            background-color: #3b5998;
+            box-shadow: 0 0 16px #3b5998;
+          }
+          
+          .socialIcons .twitter {
+            background-color: #00aced;
+            box-shadow: 0 0 16px #00aced;
+          }
+          
+          .socialIcons .instagram {
+            background-color: #cd486b;
+            box-shadow: 0 0 16px #cd486b;
+          }
+          
           
 
 
