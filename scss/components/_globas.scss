@@ -1,0 +1,125 @@
+body  {
+    background-color: black !important;
+}
+.img-logo1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: black
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+   
+      .section-opciones {
+        text-align: right;
+        font-size: 30px;
+        font-weight: bold;
+        list-style-type: none;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        margin: 30px;
+        color: white;
+        border-top: 3cm;
+        word-spacing: 1cm;
+    }
+    .color-blanco {
+        color: white;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 25px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        margin-left: ;
+    }
+    .color-negro {
+        color: black;
+    }
+    .color-naranja {
+        color: orange;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .color-naranja-1 {
+        color: orange;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .color-blanco1 {
+        color: white !important;
+    }
+    .color-gris {
+        color: gray;
+        font-family: Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        font-size: 50px;
+        margin-left: 50px;
+        padding-left: 3cm;
+        margin-bottom: 1cm;
+    }
+    .fuente-style{
+        font-family:Rockwell, "Courier New", Courier, Georgia,
+        Times, "Times New Roman", serif;
+        color: orange;
+        font-size: 30px;
+    }
+
+    .img {
+        margin-left: 75px;
+        border-radius: 10px;
+    } 
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+      }
+      
+    .enlinea {
+        display: inline;
+      }
+
+    .padre-flex iframe {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        border: solid orange; 
+        margin: 20px;
+
+    }
+    .padre-flex-productos {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        border: solid orange; 
+        margin: 20px;
+    }
+    .ul {
+        list-style: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+        margin-right: 50px;
+        justify-content: space-evenly;
+    }
+    .contacto-section {
+        margin-left: 50px;
+    }
+    .inline-flex {
+        margin-left: 22cm;
+        margin-right: 1cm;
+    }
+    .padre-flexp {
+        color: white;
+        text-align: left;
+    }
+    .productosgrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
