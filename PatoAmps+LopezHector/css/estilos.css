@@ -21,15 +21,15 @@
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px; }
-  .nosotrostexto {
-    margin-bottom: 25px;
-    padding-bottom: 20px;
-    font-size: 15px; 
+.nosotrostexto {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  font-size: 15px; 
   text-align: center;}
-  .nosotrostexto1 {
-    margin-bottom: px;
-    padding-bottom: -10px;
-    font-size: 15px; 
+.nosotrostexto1 {
+  margin-bottom: px;
+  padding-bottom: -10px;
+  font-size: 15px; 
   text-align: center;
   color: white;
   font-size: 40px;
@@ -470,18 +470,71 @@ body {
       font-size: 5px;
       margin-left: 40px; }
   .socialIcons1 {
-    margin-top: 10px;
-  }  
+    margin-top: 10px;}  
   .socialIcons .facebook {
     background-color: #3b5998;
     box-shadow: 0 0 16px #3b5998;
   margin-top: 10px;}
-  
   .socialIcons .twitter {
     background-color: #00aced;
-    box-shadow: 0 0 16px #00aced;
-  } 
+    box-shadow: 0 0 16px #00aced;} 
   .socialIcons .instagram {
     background-color: #cd486b;
-    box-shadow: 0 0 16px #cd486b;
+    box-shadow: 0 0 16px #cd486b; }
+  .productosgrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: cm;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;}
+    .ul {
+      list-style: none;
+      padding-top: 4px;
+      padding-bottom: 10px;
+      align-items: center;
+      margin-right: 50px;
+      justify-content: space-evenly;}
+  .padre-flex-productos {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    border: solid orange; 
+    margin: 10px;}
+.fuente-style{
+  font-family:Rockwell, "Courier New", Courier, Georgia,
+  Times, "Times New Roman", serif;
+  color: orange;
+  font-size: 30px;}
+.cmn-t-scale {
+    padding-right: 2cm;
+    border-left: 1cm;
+    border-right: 1cm;
+    padding-left: 2cm;
+    color: black;
+    background-color: orange;
+    font-size: 20px;
+    text-align: center;
+    align-content: flex-start;}
+  .iframe { 
+      width: 10px;
+      height: 10px;
   }
+.padre-flexp {
+    color: white;
+    text-align: center;}
+  .padre-flex-media {
+      display: inline;
+      flex-flow: column;
+      justify-content: center;
+      border:  orange; 
+      margin: 5px;}
+.nosotrostexto1 {
+  font-size: 20px;}
+.bordenaranja {
+  padding-left: 7cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  width: 5cm;
+  height: 4cm;
+}
